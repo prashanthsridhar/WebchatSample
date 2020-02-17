@@ -1,0 +1,6 @@
+<p>
+  bot2 works!
+</p>
+<div class="map" *ngFor="let map of cinema">
+  <div [innerHTML]="safeHTML(map.cinema_loc)"></div>
+</div>
